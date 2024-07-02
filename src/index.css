@@ -6,3 +6,15 @@
 body {
     background-color:rgb(137, 209, 253) ;
 }
+
+/* App.module.css */
+.App {
+    user-select: none; /* Запретить выделение текста */
+    -webkit-user-drag: none; /* Запретить перетаскивание веб-элементов в Safari */
+    -webkit-user-select: none; /* Запретить выделение текста в Safari */
+    -moz-user-select: none; /* Запретить выделение текста в Firefox */
+}
+
+image {
+    pointer-events: none;
+}
