@@ -9,3 +9,15 @@
 
 ## Stack:
 
+
+## lib:
+###  react
+###  react-router-dom
+
+## lang:
+###  html
+###  css (example.module.css)
+###  javascript
+###  jsx
+
+
