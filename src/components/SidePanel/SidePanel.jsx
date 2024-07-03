@@ -1,6 +1,7 @@
 import React from 'react'
 
 import st from './SidePanel.module.css'
+import SidePanelUser from '../Auth/User/SidePanelUser/SidePanelUser'
 
 function SidePanel() {
   return (
@@ -8,7 +9,7 @@ function SidePanel() {
         <div
         className={st.SidePanel}
       >
-        {/* Здесь можно разместить содержимое боковой панели */}
+        <SidePanelUser />
         Боковая панель
       </div>
     </div>

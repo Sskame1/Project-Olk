@@ -1,13 +1,16 @@
-import React, { useState } from 'react';
-
-import Map from './components/Map/Map';
-import SidePanel from './components/SidePanel/SidePanel';
+import React from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/Home/HomePage';
+import AuthPage from './pages/Auth/AuthPage';
 
 function App() {
   return (
-    <div className="App" style={{ display: 'flex' }}>
-      <SidePanel />
-      <Map/>
+    <div className="App">
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/auth' element={<AuthPage />} />
+        <Route path='*' element={<Navigate to="/" replace />} />
+      </Routes>
     </div>
   );
 }
