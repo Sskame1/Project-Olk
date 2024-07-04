@@ -2,6 +2,7 @@ import React from 'react'
 
 import st from './SidePanel.module.css'
 import SidePanelUser from '../Auth/User/SidePanelUser/SidePanelUser'
+import Search from './components/Search/Search'
 
 function SidePanel() {
   return (
@@ -9,7 +10,7 @@ function SidePanel() {
         <div
         className={st.SidePanel}
       >
-        <SidePanelUser />
+        <Search />
         Боковая панель
       </div>
     </div>

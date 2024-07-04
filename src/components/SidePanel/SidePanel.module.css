@@ -1,3 +1,7 @@
+.SidePanel {
+    background-color: #5E6DF5;
+}
+
 @media screen and (min-width: 1024px) {
     .SidePanel {
         z-index: 1;
@@ -6,7 +10,6 @@
         left: 0;
         width: 200px;
         height: 100%;
-        background-color: lightgrey;
     }
     
 }
@@ -19,7 +22,6 @@
         left: 0;
         width: 200px;
         height: 100%;
-        background-color: lightgrey;
     }
 }
 
@@ -31,6 +33,5 @@
         left: 0;
         width: 100%;
         height: 25%;
-        background-color: lightgrey;
       }
 }
