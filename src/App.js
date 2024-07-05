@@ -2,7 +2,6 @@ import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home/HomePage';
 import AuthPage from './pages/Auth/AuthPage';
-import HomeWork from './pages/hw/HomeWork';
 
 function App() {
   return (
