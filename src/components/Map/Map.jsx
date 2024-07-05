@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import mapImage from '../../image/muh.png'
+import mapImage from '../../image/muh.png';
 
-import s from './Map.module.css'
+import s from './Map.module.css';
 
 function Map() {
     const [pos, setPos] = useState({ x: 0, y: 0, scale: 1 });
@@ -81,4 +81,4 @@ function Map() {
   )
 }
 
-export default Map
+export default Map;

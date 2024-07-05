@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import st from './SidePanel.module.css'
-import SidePanelUser from '../Auth/User/SidePanelUser/SidePanelUser'
-import Search from './components/Search/Search'
+import st from './SidePanel.module.css';
+import Search from './components/Search/Search';
 
 function SidePanel() {
   return (
@@ -17,4 +16,4 @@ function SidePanel() {
   )
 }
 
-export default SidePanel
+export default SidePanel;

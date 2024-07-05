@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import style from './Search.module.css'
+import style from './Search.module.css';
 
 import { LiaSearchSolid } from "react-icons/lia";
 
@@ -15,4 +15,4 @@ function Search() {
   )
 }
 
-export default Search
+export default Search;
