@@ -10,7 +10,7 @@ function TestPage() {
   const dragStart = useRef({ x: 0, y: 0 });
   const [currentMarker, setCurrentMarker] = useState(null);
 
-  const markerSize = 30;
+  const markerSize = 15;
 
   const handleMapClick = (e) => {
     if (!isDragging.current) {
@@ -60,7 +60,7 @@ function TestPage() {
   const handleMarkerClick = (marker) => {
     setCurrentMarker(marker === currentMarker ? null : marker);
   };
-  
+
   const scaledMarkerPosition = (markerPos) => ({
     top: `${markerPos.y * lastPos.current.scale}px`,
     left: `${markerPos.x * lastPos.current.scale}px`,
