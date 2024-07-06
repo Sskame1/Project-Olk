@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import st from './SidePanel.module.css';
 import Search from './components/Search/Search';
+import Items from './components/Items/Items';
 
 function SidePanel({ handleMarkerVisibilityChange }) {
   const [showMarkers, setShowMarkers] = useState(false);
@@ -25,6 +26,7 @@ function SidePanel({ handleMarkerVisibilityChange }) {
         <label htmlFor="showMarkersCheckbox">Показать метки на карте</label>
       </div>
       Боковая панель
+      <Items />
     </div>
   );
 }
