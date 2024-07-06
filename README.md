@@ -71,3 +71,14 @@ pnpm start
 ```
 http://localhost:3000
 ```
+
+
+# ToDo
+
+| task | status |
+|------|--------|
+| Map | in release|
+| Move on map | yes |
+| Mark | no |
+| SidePanel | in release |
+| Mark shop and other | no |
