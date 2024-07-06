@@ -12,8 +12,8 @@ const Map = () => {
   const handleMapClick = (e) => {
     if (!isDragging.current) {
       const boundingRect = mapRef.current.getBoundingClientRect();
-      const offsetX = (e.clientX - boundingRect.left) / lastPos.current.scale;
-      const offsetY = (e.clientY - boundingRect.top) / lastPos.current.scale;
+      const offsetX = (e.clientX - boundingRect.left) / lastPos.current.scale - lastPos.current.x;
+      const offsetY = (e.clientY - boundingRect.top) / lastPos.current.scale - lastPos.current.y;
       const newMarker = { x: offsetX, y: offsetY, id: markers.length + 1 };
       setMarkers([...markers, newMarker]);
     }
