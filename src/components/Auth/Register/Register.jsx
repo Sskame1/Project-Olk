@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import '../Auth.css'
-import { Navigate, redirect, useNavigate } from 'react-router-dom';
+import { Navigate,} from 'react-router-dom';
 
 function Register({ AuthBoolChange }) {
     const [nickname, setNickname] = useState('');
