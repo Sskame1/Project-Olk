@@ -35,7 +35,7 @@ function Items() {
               </div>
             </div> */}
 
-      <div style={{ height: 90, width: 120, background: "#a8a8a8", margin: "4%", borderRadius: 15, cursor: "pointer", display: 'flex', alignItems: 'center'}}>
+      <div  style={{ height: 90, width: 120, background: "#a8a8a8", margin: "4%", borderRadius: 15, cursor: "pointer", display: 'flex', alignItems: 'center'}}>
         <div style={{ backgroundColor: "#EB6C0F", borderRadius: "100%", height: 15, width: 15, margin: "0 0 30% 10%" }}></div>
         <img src={IHome} style={{ width: "20px", marginLeft: "-16px", marginTop: "-15px" }} />
         <p style={{ margin: "50% -10% 0", textAlign: 'center', fontSize: "14px" }}>Отели</p>
