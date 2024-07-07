@@ -1,6 +1,17 @@
 .SidePanel {
     background-color: #fff;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    transition: height 0.3s ease;
 }
+
+.SidePanel.expanded {
+    height: 100%;
+  }
 
 @media screen and (min-width: 1024px) {
     .SidePanel {
@@ -20,7 +31,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 240px;
+        width: 300px;
         height: 100%;
     }
 }

@@ -1,13 +1,20 @@
-// SidePanel.js
-import React from 'react';
+import React, { useState } from 'react';
 import st from './SidePanel.module.css';
 import Search from './components/Search/Search';
 import Items from './components/Items/Items';
 
 function SidePanel() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const togglePanel = () => {
+    setIsExpanded(!isExpanded);
+  };
 
   return (
-    <div className={st.SidePanel}>
+    <div className={`${st.SidePanel} ${isExpanded ? st.expanded : ''}`}>
+      {window.innerWidth > 767 && (
+        <button onClick={togglePanel}>Выдвинуть/Убрать панель</button>
+      )}
       <Search />
       <Items />
     </div>
