@@ -2,61 +2,71 @@
   {
     "id": 1,
     "app": "App1",
-    "size": 10,
+    "sizeW": 10,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 2,
     "app": "App2",
-    "size": 10,
+    "sizeW": 10,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 3,
     "app": "App3",
-    "size": 10,
+    "sizeW": 10,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 4,
     "app": "App4",
-    "size": 10,
+    "sizeW": 10,
+    "sizeH": 20,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 5,
     "app": "App5",
-    "size": 20,
+    "sizeW": 20,
+    "sizeH": 20,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 6,
     "app": "App6",
-    "size": 20,
+    "sizeW": 20,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 7,
     "app": "App7",
-    "size": 20,
+    "sizeW": 10,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 8,
     "app": "App8",
-    "size": 20,
+    "sizeW": 10,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 9,
     "app": "App9",
-    "size": 10,
+    "sizeW": 20,
+    "sizeH": 10,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   },
   {
     "id": 10,
     "app": "App10",
-    "size": 20,
+    "sizeW": 20,
+    "sizeH": 20,
     "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
   }
 ]

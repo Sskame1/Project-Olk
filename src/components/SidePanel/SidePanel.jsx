@@ -1,31 +1,14 @@
 // SidePanel.js
-import React, { useState } from 'react';
+import React from 'react';
 import st from './SidePanel.module.css';
 import Search from './components/Search/Search';
 import Items from './components/Items/Items';
 
-function SidePanel({ handleMarkerVisibilityChange }) {
-  const [showMarkers, setShowMarkers] = useState(false);
-
-  const handleCheckboxChange = () => {
-    const newValue = !showMarkers;
-    setShowMarkers(newValue);
-    handleMarkerVisibilityChange(newValue);  // Передача значения чекбокса в родительский компонент
-  };
+function SidePanel() {
 
   return (
     <div className={st.SidePanel}>
       <Search />
-      <div>
-        <input
-          type="checkbox"
-          id="showMarkersCheckbox"
-          checked={showMarkers}
-          onChange={handleCheckboxChange}
-        />
-        <label htmlFor="showMarkersCheckbox">Показать метки на карте</label>
-      </div>
-      Боковая панель
       <Items />
     </div>
   );

@@ -4,8 +4,8 @@ import mapImage from '../../image/muh.png';
 
 const Map = () => {
   const mapRef = useRef(null);
-  const lastPos = useRef({ x: 0, y: 0, scale: 1 });
   const [markers, setMarkers] = useState([]);
+  const lastPos = useRef({ x: 0, y: 0, scale: 1 });
   const isDragging = useRef(false);
   const dragStart = useRef({ x: 0, y: 0 });
 
@@ -31,9 +31,7 @@ const Map = () => {
       lastPos.current.y += e.clientY - dragStart.current.y;
       dragStart.current.x = e.clientX;
       dragStart.current.y = e.clientY;
-      mapRef.current.style.transform = `translate(${lastPos.current.x}px, ${
-        lastPos.current.y
-      }px) scale(${lastPos.current.scale})`;
+      mapRef.current.style.transform = `translate(${lastPos.current.x}px, ${lastPos.current.y}px) scale(${lastPos.current.scale})`;
     }
   };
 
