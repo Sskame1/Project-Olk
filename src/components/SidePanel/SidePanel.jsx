@@ -12,8 +12,8 @@ function SidePanel() {
 
   return (
     <div className={`${st.SidePanel} ${isExpanded ? st.expanded : ''}`}>
-      {window.innerWidth > 767 && (
-        <button onClick={togglePanel}>Выдвинуть/Убрать панель</button>
+      {window.innerWidth < 767 && (
+        <button onClick={togglePanel} style={{ height: '10%', width: '100%'  }} ></button>
       )}
       <Search />
       <Items />
