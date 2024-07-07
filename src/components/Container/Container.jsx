@@ -14,7 +14,7 @@ function Container() {
     return (
       <div className={style.parent_container}>
         <SidePanel handleMarkerVisibilityChange={handleMarkerVisibilityChange} />
-        <Map markers={markers} />
+        <Map markers={markers} disableMarkers={true} />
       </div>
     );
 };
