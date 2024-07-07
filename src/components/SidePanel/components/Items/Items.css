@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 120px;
+    background-color: #a8a8a8;
+    margin: 4%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.point {
+    background-color: red;
+    border-radius: 100%;
+    height: 15%;
+    width: 15%;
+    margin: 0 0 30% 10%;
+}
+
+.text {
+    margin: 50% -10% 0;
+    text-align: center;
+    font-size: 14px;
+}

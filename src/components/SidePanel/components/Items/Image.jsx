@@ -9,6 +9,7 @@ function Image({ imageData }) {
     <div>
       {imageData.map((image) => (
         <div key={image.id}>
+          /* eslint-disable */
           <img src={image.urlImage} style={{ width: "20px", marginLeft: "-16px", marginTop: "-15px" }} />
         </div>
       ))}
