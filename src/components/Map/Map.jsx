@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import style from './Map.module.css';
 import mapImage from '../../image/map.png';
-import DataMarkers from './db.json'; // Предполагаем, что example.json находится в корне src
+// import DataMarkers from './db.json'; 
 
 const Map = ({ disableMarkers }) => {
   const mapRef = useRef(null);
@@ -9,7 +9,7 @@ const Map = ({ disableMarkers }) => {
 
   useEffect(() => {
     // Пример загрузки данных из JSON файла
-    setMarkers(DataMarkers);
+    // setMarkers(DataMarkers);
   }, []);
 
   const lastPos = useRef({ x: 0, y: 0, scale: 1 });

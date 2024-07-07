@@ -1,72 +1,52 @@
 [
   {
     "id": 1,
-    "app": "App1",
-    "sizeW": 10,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Отели",
+    "urlImage": "../../../../image/icons/SidePanel/Home.svg"
   },
   {
     "id": 2,
-    "app": "App2",
-    "sizeW": 10,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Работа",
+    "urlImage": "../../../../image/icons/SidePanel/Shop.svg"
   },
   {
     "id": 3,
-    "app": "App3",
-    "sizeW": 10,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Избранное",
+    "urlImage": "../../../../image/icons/SidePanel/Heart.svg"
   },
   {
     "id": 4,
-    "app": "App4",
-    "sizeW": 10,
-    "sizeH": 20,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Маршруты",
+    "urlImage": "../../../../image/icons/SidePanel/Bus.svg"
   },
   {
     "id": 5,
-    "app": "App5",
-    "sizeW": 20,
-    "sizeH": 20,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Спортивные...",
+    "urlImage": "../../../../image/icons/SidePanel/Stickman.svg"
   },
   {
     "id": 6,
-    "app": "App6",
-    "sizeW": 20,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Больницы",
+    "urlImage": "../../../../image/icons/SidePanel/Heal.svg"
   },
   {
     "id": 7,
-    "app": "App7",
-    "sizeW": 10,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Кафе",
+    "urlImage": "../../../../image/icons/SidePanel/Coffee.svg"
   },
   {
     "id": 8,
-    "app": "App8",
-    "sizeW": 10,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Строитель...",
+    "urlImage": "../../../../image/icons/SidePanel/Error.svg"
   },
   {
     "id": 9,
-    "app": "App9",
-    "sizeW": 20,
-    "sizeH": 10,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Достопримеч...",
+    "urlImage": "../../../../image/icons/SidePanel/Castle.svg"
   },
   {
     "id": 10,
-    "app": "App10",
-    "sizeW": 20,
-    "sizeH": 20,
-    "urlImage": "https://stroymag18.ru/upload/iblock/d40/d40046f42115fc48989f947b2698ee87.jpg"
+    "app": "Порт",
+    "urlImage": "../../../../image/icons/SidePanel/airplane.svg"
   }
 ]
