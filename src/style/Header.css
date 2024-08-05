@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.Header__container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header__container > .nav {
+    display: flex;
+    margin-top: 1%;
+}
+
+.nav > a {
+    margin-right: 35%;
+}
+
+.nav > a:last-child {
+    margin-right: 0;
+}
+
+.logo {
+    font-size: 250%;
+}
+
+a,
+.Header__container__auth {
+    font-size: 130%;
+}
