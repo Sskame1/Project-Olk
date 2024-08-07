@@ -7,7 +7,7 @@ function Header() {
     <div className='Header'>
         <div className="Header__container">
             <div className="logo">
-                Olekminsk
+                Олёкминск
             </div>
             <ul className="nav">
                 <Link>Афиша</Link>

@@ -1,7 +1,8 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    /* background-color: red; */
+    box-shadow: 0 1px 4px #00000026;
 }
 
 .Header__container {
@@ -16,6 +17,7 @@
 }
 
 .nav > a {
+    font-size: 1.3vw;
     margin-right: 35%;
 }
 
@@ -24,10 +26,17 @@
 }
 
 .logo {
-    font-size: 250%;
+    margin-left: 1%;
+    font-size: 2.5vw;
 }
 
-a,
+.Header__container__auth > a {
+    font-size: 1.3vw;
+    margin-right: 5%;
+}
+
 .Header__container__auth {
-    font-size: 130%;
+    margin: 1.5vh;
+    display: flex;
+    justify-content: center;
 }
