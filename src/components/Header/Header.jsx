@@ -6,11 +6,11 @@ function Header() {
   return (
     <div className='Header'>
         <div className="Header__container">
-            <div className="logo">
-                Олёкминск
-            </div>
+            <Link className="logo" to='/' >
+            Олёкминск
+            </Link>
             <ul className="nav">
-                <Link>Афиша</Link>
+                <Link to='/Afisha' >Афиша</Link>
                 <Link>Доска</Link>
                 <Link>Работа</Link>
             </ul>
