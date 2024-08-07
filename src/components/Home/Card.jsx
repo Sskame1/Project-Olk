@@ -1,9 +1,19 @@
-import React from 'react'
+import '../../style/Card.css'
 
-function Card() {
+export const Card = ({ img, title, desc }) => {
   return (
-    <div>Card</div>
-  )
-}
+    <div className='Card'>
+        <img className='Card__image' src={img} alt="image" />
+        <p>{title}</p>
+        <span>{desc}</span>
+    </div>
+  );
+};
 
-export default Card
+export const CardMini = () => {
+    return (
+        <div className='CardMini'>
+
+        </div>
+    );
+};

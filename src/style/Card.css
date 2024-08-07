@@ -1,0 +1,21 @@
+
+.Card {
+    margin: 1rem;
+    line-height: 0.8rem;
+}
+
+.Card__image {
+    width: 22vh;
+    height: 30vh;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+
+.Card > p {
+    font-size: 1rem;
+}
+
+.Card > span {
+    font-size: 0.7rem;
+    color: #999999;
+}
