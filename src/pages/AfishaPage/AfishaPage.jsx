@@ -1,4 +1,5 @@
 import React from 'react'
+import Ad from '../../components/Ad/Ad'
 function AfishaPage() {
   return (
     <div className='Afisha'>
@@ -6,7 +7,7 @@ function AfishaPage() {
         <div className="Main__main">
         </div>
         <div className="Main_sidebord">
-          sidebord
+          <Ad />
         </div>  
       </div>
     </div>

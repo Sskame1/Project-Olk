@@ -1,6 +1,7 @@
 import '../../style/bobik.css'
-import Tablo from '../../components/Home/Tablo'
-import { Card } from '../../components/Home/Card'
+import Tablo from '../../components/StandartComp/Tablo'
+import { Card } from '../../components/StandartComp/Card'
+import Ad from '../../components/Ad/Ad'
 
 function HomePage() {
   return (
@@ -20,7 +21,7 @@ function HomePage() {
           </Tablo>
         </div>
         <div className="Main_sidebord">
-          sidebord
+          <Ad />
         </div>  
       </div>
     </div>

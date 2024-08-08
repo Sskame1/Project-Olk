@@ -1,0 +1,8 @@
+.Ad {
+    margin: 1.5rem 0;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+}
