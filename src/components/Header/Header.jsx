@@ -11,8 +11,8 @@ function Header() {
             </Link>
             <ul className="nav">
                 <Link to='/Afisha' >Афиша</Link>
-                <Link>Доска</Link>
-                <Link>Работа</Link>
+                <Link title='не работает'>Доска</Link>
+                <Link title='не работает'>Работа</Link>
             </ul>
         </div>
         <div className="Header__container__auth">

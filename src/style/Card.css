@@ -1,21 +1,25 @@
-
 .Card {
     margin: 1rem;
-    line-height: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .Card__image {
-    width: 22vh;
-    height: 30vh;
-    /* border: 1px solid red; */
-    border-radius: 10px;
+    width: 8rem;
+    height: 10rem;
+    border-radius: 0.4rem;
+    margin-bottom: 0.2rem;
 }
 
 .Card > p {
     font-size: 1rem;
+    text-align: center; 
 }
 
 .Card > span {
     font-size: 0.7rem;
     color: #999999;
+    text-align: center; 
 }

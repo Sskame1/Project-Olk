@@ -1,5 +1,15 @@
 .CardMain {
-    margin: 1rem 0;
+    display: flex;
+    padding: 0.5rem 0.2rem;
+    margin: 1.5rem 0;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 0.4rem;
+    overflow-x: auto; /* Позволяем прокручивать контейнер при переполнении */
+    white-space: nowrap;
+}
+
+.CardMain > h1 {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -0.2rem;
 }
