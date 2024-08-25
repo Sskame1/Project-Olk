@@ -11,7 +11,7 @@ function Header() {
             </Link>
             <ul className="nav">
                 <Link to='/Afisha' >Афиша</Link>
-                <Link title='не работает'>Объявления</Link>
+                <Link title='не работает'>Доска</Link>
                 {/* <Link title='не работает'>Работа</Link> */}
             </ul>
         </div>
