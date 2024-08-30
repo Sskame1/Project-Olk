@@ -23,7 +23,9 @@ function AfishaPage() {
               poster={'https://i.pinimg.com/736x/47/fc/f2/47fcf21bdc163aca0f4b4be1199fa6c6.jpg'} 
               title="Evangelion neon genesis" 
               tags="da" 
-              chrono="50 мин" />
+              chrono="50 мин"
+              inTime="09:30 10:50" />
+              
             </div>
           </div>
           </AfishaTablo>
