@@ -38,11 +38,12 @@ img {
 }
 
 .tags_time {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
     width: 9rem;
+    color: #acacac;
 }
 
 .urlBuyTicket {

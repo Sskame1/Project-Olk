@@ -1,0 +1,27 @@
+img {
+    border-radius: 0;
+    height: 16rem;
+}
+
+.title {
+    color: black;
+}
+
+.description {
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.container {
+    display: flex;
+    padding: 0.8rem;
+}
+
+.container__info {
+    margin-left: 1rem;
+}
+
+.year,
+.description {
+    font-size: 0.8rem;
+}

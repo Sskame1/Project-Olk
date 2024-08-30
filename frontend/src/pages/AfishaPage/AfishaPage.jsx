@@ -24,8 +24,7 @@ function AfishaPage() {
               title="Evangelion neon genesis" 
               tags="аниме, фантастика" 
               chrono="60 мин"
-              inTime="09:30 10:50" />
-              
+              inTime="09:30 10:50" />              
             </div>
           </div>
           </AfishaTablo>
