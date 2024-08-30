@@ -22,8 +22,8 @@ function AfishaPage() {
               urlKino="https://youtu.be/o6wtDPVkKqI?si=74OIFyixuUYL_hEY" 
               poster={'https://i.pinimg.com/736x/47/fc/f2/47fcf21bdc163aca0f4b4be1199fa6c6.jpg'} 
               title="Evangelion neon genesis" 
-              tags="da" 
-              chrono="50 мин"
+              tags="аниме, фантастика" 
+              chrono="60 мин"
               inTime="09:30 10:50" />
               
             </div>

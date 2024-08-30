@@ -13,9 +13,9 @@
 
 .container_info:after {
     content: '';
-    width: 13.9rem;
+    width: 14rem;
     margin-top: 8rem;
-    margin-left: -13.44rem;
+    margin-left: -14.2rem;
     border-bottom: #c0c0c0 solid 0.01rem;
 }
 
@@ -39,10 +39,14 @@ img {
 
 .tags_time {
     font-size: 0.8rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    width: 9rem;
 }
 
 .urlBuyTicket {
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 0.4rem;
     padding: 0.1rem;
     transition: all 0.5s ease;
@@ -56,7 +60,7 @@ img {
 }
 
 .urlBuyTicketsDiv {
-    margin-top: 3.45rem;
+    margin-top: 2.45rem;
     
 }
 
@@ -66,4 +70,5 @@ img {
 
 .inTive {
     color: #949494;
+    font-size: 0.88rem;
 }
