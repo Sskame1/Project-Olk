@@ -1,8 +1,0 @@
-.AfishaTablo {
-    padding: 0.5rem 0.2rem;
-    margin: 1.5rem 0;
-    background-color: #fff;
-    border-radius: 0.4rem;
-    overflow-x: auto; /* Позволяем прокручивать контейнер при переполнении */
-    white-space: nowrap;
-}
