@@ -11,7 +11,9 @@ export default function Header() {
           <Link href={"/Doska"}>Доска</Link>
           <Link href={"/Afisha"}>Афиша</Link>
         </div>
-        <div className="header--auth"></div>
+        <div className="header--auth">
+          <Link href={"#"}>Авторизация</Link>
+        </div>
       </div>
     </div>
   )

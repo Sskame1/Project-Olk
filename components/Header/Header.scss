@@ -1,0 +1,25 @@
+.header {
+    height: 3em;
+
+    background-color: red;
+
+    .header__container {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+
+
+        .header--logo {
+            font-size: 2em;
+        }
+
+        a {
+            margin-right: 4em;
+            
+        }
+        a:last-of-type {
+            margin-right: -2em;
+        }
+    }
+}
