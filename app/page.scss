@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+    height: 87%;
+}
+
+
+.main__container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.main__content {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    margin-left: 22%;
+}
+
+.main__sidebars {
+    background-color: blue;
+    width: 22%;
+    height: 100%;
+    // margin-right: -10em;
+}

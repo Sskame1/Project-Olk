@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Reset and base styles  */
 * {
 	padding: 0px;
@@ -12,6 +14,15 @@
     transition: all;
     transition: 0.3s;
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+html {
+    height: 100%;
 }
 
 /* Links */
